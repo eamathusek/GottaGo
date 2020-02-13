@@ -18,6 +18,7 @@
 		78DFFD2623E0AB20008F0DFA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DFFD2523E0AB20008F0DFA /* CircleImage.swift */; };
 		78DFFD2823E0AE88008F0DFA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DFFD2723E0AE88008F0DFA /* MapView.swift */; };
 		B9A505EE23F5BBE500E7E1D0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A505ED23F5BBE500E7E1D0 /* MainView.swift */; };
+		B9A505F023F5BF2400E7E1D0 /* DrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A505EF23F5BF2400E7E1D0 /* DrawerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		78DFFD2523E0AB20008F0DFA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		78DFFD2723E0AE88008F0DFA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B9A505ED23F5BBE500E7E1D0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B9A505EF23F5BF2400E7E1D0 /* DrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				7801771323DF8F0500BC0DF4 /* SceneDelegate.swift */,
 				7801771523DF8F0500BC0DF4 /* ContentView.swift */,
 				B9A505ED23F5BBE500E7E1D0 /* MainView.swift */,
+				B9A505EF23F5BF2400E7E1D0 /* DrawerView.swift */,
 				78DFFD2523E0AB20008F0DFA /* CircleImage.swift */,
 				78DFFD2723E0AE88008F0DFA /* MapView.swift */,
 				7801771723DF8F1100BC0DF4 /* Assets.xcassets */,
@@ -229,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A505F023F5BF2400E7E1D0 /* DrawerView.swift in Sources */,
 				7801771223DF8F0500BC0DF4 /* AppDelegate.swift in Sources */,
 				B9A505EE23F5BBE500E7E1D0 /* MainView.swift in Sources */,
 				78DFFD2623E0AB20008F0DFA /* CircleImage.swift in Sources */,
