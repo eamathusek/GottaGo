@@ -1,0 +1,49 @@
+[{
+    id: 0,
+    name: "MC 1st Floor",
+    locationCoordinate: {
+        longitude: 123.123
+        latitude: 321.321
+    },
+    image: mockToilet1.jpeg,
+    rating: {
+        general: 4,
+        cleanliness: 4,
+        location: 5,
+        accessibility: 4,
+        traffic: 1,
+        size: 5
+    }
+}, {
+    id: 1,
+    name: "Smith 3rd Floor",
+    locationCoordinate: {
+        longitude: 123.123
+        latitude: 321.321
+    },
+    image: mockToilet2.jpeg,
+    rating: {
+        general: 3,
+        cleanliness: 3,
+        location: 2,
+        accessibility: 3,
+        traffic: 5,
+        size: 1
+    }
+}, {
+    id: 2,
+    name: "I-center 1st Floor",
+    locationCoordinate: {
+        longitude: 123.123
+        latitude: 321.321
+    },
+    image: mockToilet3.jpg,
+    rating: {
+        general: 5,
+        cleanliness: 5,
+        location: 3,
+        accessibility: 4,
+        traffic: 5,
+        size: 4
+    }
+}]
