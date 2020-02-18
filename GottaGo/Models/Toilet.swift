@@ -1,7 +1,7 @@
 import SwiftUI
 import CoreLocation
 
-struct Toilet: Hashable, Codable {    
+struct Toilet: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
     var rating: Rating

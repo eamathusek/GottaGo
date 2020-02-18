@@ -20,13 +20,13 @@
 		B9A505EE23F5BBE500E7E1D0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A505ED23F5BBE500E7E1D0 /* MainView.swift */; };
 		B9A505F023F5BF2400E7E1D0 /* DrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A505EF23F5BF2400E7E1D0 /* DrawerView.swift */; };
 		B9C03FDC23F85BEB008C9558 /* toiletData.json in Resources */ = {isa = PBXBuildFile; fileRef = B9C03FDB23F85BEB008C9558 /* toiletData.json */; };
-		B9C03FDE23F85FC4008C9558 /* ToiletRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C03FDD23F85FC4008C9558 /* ToiletRow.swift */; };
 		B9C03FE023F85FD0008C9558 /* ToiletList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C03FDF23F85FD0008C9558 /* ToiletList.swift */; };
 		B9C03FE223F86271008C9558 /* Toilet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C03FE123F86271008C9558 /* Toilet.swift */; };
 		B9C03FE723F864B5008C9558 /* mockToilet3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9C03FE423F864B5008C9558 /* mockToilet3.jpg */; };
-		B9C03FE823F864B5008C9558 /* mockToilet1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B9C03FE523F864B5008C9558 /* mockToilet1.jpeg */; };
-		B9C03FE923F864B5008C9558 /* mockToilet2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B9C03FE623F864B5008C9558 /* mockToilet2.jpeg */; };
+		B9C03FE823F864B5008C9558 /* mockToilet1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9C03FE523F864B5008C9558 /* mockToilet1.jpg */; };
+		B9C03FE923F864B5008C9558 /* mockToilet2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9C03FE623F864B5008C9558 /* mockToilet2.jpg */; };
 		B9C03FED23F8739A008C9558 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C03FEC23F8739A008C9558 /* Data.swift */; };
+		B9EC12A123F8879200E4AB1A /* ToiletRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EC12A023F8879200E4AB1A /* ToiletRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +57,13 @@
 		B9A505ED23F5BBE500E7E1D0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B9A505EF23F5BF2400E7E1D0 /* DrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerView.swift; sourceTree = "<group>"; };
 		B9C03FDB23F85BEB008C9558 /* toiletData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = toiletData.json; sourceTree = "<group>"; };
-		B9C03FDD23F85FC4008C9558 /* ToiletRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletRow.swift; sourceTree = "<group>"; };
 		B9C03FDF23F85FD0008C9558 /* ToiletList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletList.swift; sourceTree = "<group>"; };
 		B9C03FE123F86271008C9558 /* Toilet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toilet.swift; sourceTree = "<group>"; };
 		B9C03FE423F864B5008C9558 /* mockToilet3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mockToilet3.jpg; sourceTree = "<group>"; };
-		B9C03FE523F864B5008C9558 /* mockToilet1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mockToilet1.jpeg; sourceTree = "<group>"; };
-		B9C03FE623F864B5008C9558 /* mockToilet2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mockToilet2.jpeg; sourceTree = "<group>"; };
+		B9C03FE523F864B5008C9558 /* mockToilet1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mockToilet1.jpg; sourceTree = "<group>"; };
+		B9C03FE623F864B5008C9558 /* mockToilet2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mockToilet2.jpg; sourceTree = "<group>"; };
 		B9C03FEC23F8739A008C9558 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B9EC12A023F8879200E4AB1A /* ToiletRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +152,8 @@
 		B9C03FE323F86487008C9558 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B9C03FE523F864B5008C9558 /* mockToilet1.jpeg */,
-				B9C03FE623F864B5008C9558 /* mockToilet2.jpeg */,
+				B9C03FE523F864B5008C9558 /* mockToilet1.jpg */,
+				B9C03FE623F864B5008C9558 /* mockToilet2.jpg */,
 				B9C03FE423F864B5008C9558 /* mockToilet3.jpg */,
 				B9C03FDB23F85BEB008C9558 /* toiletData.json */,
 			);
@@ -173,8 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				B9A505EF23F5BF2400E7E1D0 /* DrawerView.swift */,
-				B9C03FDD23F85FC4008C9558 /* ToiletRow.swift */,
 				78DFFD2723E0AE88008F0DFA /* MapView.swift */,
+				B9EC12A023F8879200E4AB1A /* ToiletRow.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -264,8 +264,8 @@
 				B9C03FDC23F85BEB008C9558 /* toiletData.json in Resources */,
 				7801771B23DF8F1100BC0DF4 /* Preview Assets.xcassets in Resources */,
 				B9C03FE723F864B5008C9558 /* mockToilet3.jpg in Resources */,
-				B9C03FE823F864B5008C9558 /* mockToilet1.jpeg in Resources */,
-				B9C03FE923F864B5008C9558 /* mockToilet2.jpeg in Resources */,
+				B9C03FE823F864B5008C9558 /* mockToilet1.jpg in Resources */,
+				B9C03FE923F864B5008C9558 /* mockToilet2.jpg in Resources */,
 				7801771823DF8F1100BC0DF4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,10 +287,10 @@
 				B9A505F023F5BF2400E7E1D0 /* DrawerView.swift in Sources */,
 				7801771223DF8F0500BC0DF4 /* AppDelegate.swift in Sources */,
 				B9A505EE23F5BBE500E7E1D0 /* MainView.swift in Sources */,
-				B9C03FDE23F85FC4008C9558 /* ToiletRow.swift in Sources */,
 				B9C03FED23F8739A008C9558 /* Data.swift in Sources */,
 				B9C03FE223F86271008C9558 /* Toilet.swift in Sources */,
 				B9C03FE023F85FD0008C9558 /* ToiletList.swift in Sources */,
+				B9EC12A123F8879200E4AB1A /* ToiletRow.swift in Sources */,
 				78DFFD2623E0AB20008F0DFA /* CircleImage.swift in Sources */,
 				7801771423DF8F0500BC0DF4 /* SceneDelegate.swift in Sources */,
 				7801771623DF8F0500BC0DF4 /* ContentView.swift in Sources */,
