@@ -10,7 +10,11 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        MapView()
+        VStack {
+            MapView()
+            Spacer()
+            ToiletList()
+        }
         // Add drawer
         // Add current location/settings buttons
     }

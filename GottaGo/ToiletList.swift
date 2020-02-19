@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct toiletList: View {
+struct ToiletList: View {
     var body: some View {
         List(toiletData) { toilet in
             ToiletRow(toilet: toilet)
@@ -16,8 +16,8 @@ struct toiletList: View {
     }
 }
 
-struct toiletList_Previews: PreviewProvider {
+struct ToiletList_Previews: PreviewProvider {
     static var previews: some View {
-        toiletList()
+        ToiletList()
     }
 }
