@@ -13,12 +13,13 @@ struct MapOptions: View {
         VStack {
             Button(action: {}) {
                 Image(systemName: "gear")
-            }.font(.system(size: 25))
-            Divider()
+                }.font(.system(size: 25))
+            Divider().background(Color.black)
+            .padding(.top, 10).padding(.bottom, 10)
             Button(action: {}) {
                 Image(systemName: "location")
-            }.font(.system(size: 25))
-        }.frame(width: 45, height: 75)
+                }.font(.system(size: 25))
+        }.frame(width: 45, height: 90)
             .padding(.top, 5).padding(.bottom, 5)
             .background(Color.white).cornerRadius(10)
             .shadow(color: Color.black, radius: 2, x: 1, y: 1)
