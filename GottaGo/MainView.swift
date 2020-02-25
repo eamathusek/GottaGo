@@ -11,11 +11,14 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         VStack {
-            MapView()
+            ZStack {
+                MapView().edgesIgnoringSafeArea(.top).frame(height: 500)
+                MapOptions().offset(x: 160, y: -200)
+            }
             Spacer()
             ToiletList()
+            
         }
-        // Add drawer
         // Add current location/settings buttons
     }
 }
