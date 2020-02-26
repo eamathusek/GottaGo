@@ -15,8 +15,7 @@ struct MainView: View {
                 MapView().edgesIgnoringSafeArea(.top).frame(height: 500)
                 MapOptions().offset(x: 160, y: -200)
             }
-            Spacer()
-            ToiletList()
+            ToiletList().padding(.top, -10).shadow(color: Color.gray, radius: 5, x: 0, y: -1)
             
         }
         // Add current location/settings buttons
