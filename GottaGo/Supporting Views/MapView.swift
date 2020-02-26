@@ -19,6 +19,9 @@ struct MapView: UIViewRepresentable {
             latitude: 43.8260227, longitude: -111.7896876)
         let span = MKCoordinateSpan(latitudeDelta: 2.0, longitudeDelta: 2.0)
         let region = MKCoordinateRegion(center: coordinate, span: span)
+        // TODO: include this spot
+        var spot = MKMapItem(placemark: MKPlacemark(coordinate: CLLocationCoordinate2D(
+        latitude: 43.8260227, longitude: -111.7896876)))
         view.setRegion(region, animated: true)
     }
 }
