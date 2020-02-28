@@ -18,7 +18,6 @@
 		78DFFD2823E0AE88008F0DFA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DFFD2723E0AE88008F0DFA /* MapView.swift */; };
 		B98F22BA23FDF2C4008284E8 /* MapOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F22B923FDF2C4008284E8 /* MapOptions.swift */; };
 		B9A505EE23F5BBE500E7E1D0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A505ED23F5BBE500E7E1D0 /* MainView.swift */; };
-		B9A505F023F5BF2400E7E1D0 /* DrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A505EF23F5BF2400E7E1D0 /* DrawerView.swift */; };
 		B9C03FDC23F85BEB008C9558 /* toiletData.json in Resources */ = {isa = PBXBuildFile; fileRef = B9C03FDB23F85BEB008C9558 /* toiletData.json */; };
 		B9C03FE023F85FD0008C9558 /* ToiletList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C03FDF23F85FD0008C9558 /* ToiletList.swift */; };
 		B9C03FE223F86271008C9558 /* Toilet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C03FE123F86271008C9558 /* Toilet.swift */; };
@@ -55,7 +54,6 @@
 		78DFFD2723E0AE88008F0DFA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B98F22B923FDF2C4008284E8 /* MapOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOptions.swift; sourceTree = "<group>"; };
 		B9A505ED23F5BBE500E7E1D0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		B9A505EF23F5BF2400E7E1D0 /* DrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerView.swift; sourceTree = "<group>"; };
 		B9C03FDB23F85BEB008C9558 /* toiletData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = toiletData.json; sourceTree = "<group>"; };
 		B9C03FDF23F85FD0008C9558 /* ToiletList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletList.swift; sourceTree = "<group>"; };
 		B9C03FE123F86271008C9558 /* Toilet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toilet.swift; sourceTree = "<group>"; };
@@ -171,7 +169,6 @@
 		B9C03FEB23F86EE5008C9558 /* Supporting Views */ = {
 			isa = PBXGroup;
 			children = (
-				B9A505EF23F5BF2400E7E1D0 /* DrawerView.swift */,
 				78DFFD2723E0AE88008F0DFA /* MapView.swift */,
 				B9EC12A023F8879200E4AB1A /* ToiletRow.swift */,
 				B98F22B923FDF2C4008284E8 /* MapOptions.swift */,
@@ -284,7 +281,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9A505F023F5BF2400E7E1D0 /* DrawerView.swift in Sources */,
 				7801771223DF8F0500BC0DF4 /* AppDelegate.swift in Sources */,
 				B9A505EE23F5BBE500E7E1D0 /* MainView.swift in Sources */,
 				B9C03FED23F8739A008C9558 /* Data.swift in Sources */,
