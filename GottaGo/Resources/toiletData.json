@@ -2,8 +2,8 @@
     "id": 0,
     "name": "MC 1st Floor",
     "coordinates": {
-        "longitude": -116.166868,
-        "latitude": 34.011286
+        "longitude": -111.7831,
+        "latitude": 43.8183
     },
     "imageName": "mockToilet1",
     "rating": {
@@ -18,8 +18,8 @@
     "id": 1,
     "name": "Smith 3rd Floor",
     "coordinates": {
-        "longitude": -116.166868,
-        "latitude": 34.011286
+        "longitude": -111.7816,
+        "latitude": 43.8193
     },
     "imageName": "mockToilet2",
     "rating": {
@@ -34,8 +34,8 @@
     "id": 2,
     "name": "I-center 1st Floor",
     "coordinates": {
-        "longitude": -116.166868,
-        "latitude": 34.011286
+        "longitude": -111.7855,
+        "latitude": 43.8182
     },
     "imageName": "mockToilet3",
     "rating": {
