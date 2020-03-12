@@ -3,6 +3,8 @@
 
 target 'GottaGo' do
   # Comment the next line if you don't want to use dynamic frameworks
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
   use_frameworks!
 
   # Pods for GottaGo
@@ -10,6 +12,8 @@ target 'GottaGo' do
   target 'GottaGoTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Firebase/Core'
+    pod 'Firebase/Database'
   end
 
 end
