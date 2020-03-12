@@ -18,6 +18,7 @@ struct ToiletRow: View {
             .frame(width: 50, height: 50)
             Text(toilet.name)
             Spacer()
+            RatingView(rating: toilet.rating.general)
         }
     }
 }
