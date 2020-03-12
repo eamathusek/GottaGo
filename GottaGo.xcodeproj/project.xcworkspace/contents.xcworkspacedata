@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:GottaGo.xcodeproj">
+      location = "group:/Users/ericmathusek/OneDrive/Documents/Semester 11/Senior Project/GottaGo/GoogleService-Info.plist">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

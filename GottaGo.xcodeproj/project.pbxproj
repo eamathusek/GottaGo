@@ -49,6 +49,7 @@
 		7801772423DF8F1100BC0DF4 /* GottaGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GottaGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7801772823DF8F1100BC0DF4 /* GottaGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GottaGoTests.swift; sourceTree = "<group>"; };
 		7801772A23DF8F1100BC0DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782073F4241A99D700ECFAE2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "/Users/ericmathusek/OneDrive/Documents/Semester 11/Senior Project/GottaGo/GoogleService-Info.plist"; sourceTree = "<absolute>"; };
 		78DFFD2323E0A792008F0DFA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		78DFFD2523E0AB20008F0DFA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		78DFFD2723E0AE88008F0DFA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -141,6 +142,7 @@
 		78DFFD2223E0A792008F0DFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				782073F4241A99D700ECFAE2 /* GoogleService-Info.plist */,
 				78DFFD2323E0A792008F0DFA /* MapKit.framework */,
 			);
 			name = Frameworks;
