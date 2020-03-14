@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		78DFFD2823E0AE88008F0DFA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DFFD2723E0AE88008F0DFA /* MapView.swift */; };
 		B916A5582411711200C774B7 /* ToiletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B916A5572411711200C774B7 /* ToiletView.swift */; };
 		B916A55A2413EE8300C774B7 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B916A5592413EE8300C774B7 /* RatingView.swift */; };
+		B973BE0D241C3F9E005094B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B973BE0C241C3F9E005094B4 /* GoogleService-Info.plist */; };
 		B98F22BA23FDF2C4008284E8 /* MapOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F22B923FDF2C4008284E8 /* MapOptions.swift */; };
 		B9A505EE23F5BBE500E7E1D0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A505ED23F5BBE500E7E1D0 /* MainView.swift */; };
 		B9C03FDC23F85BEB008C9558 /* toiletData.json in Resources */ = {isa = PBXBuildFile; fileRef = B9C03FDB23F85BEB008C9558 /* toiletData.json */; };
@@ -63,6 +64,7 @@
 		852F524092EDEDE75D27CD1F /* Pods_GottaGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GottaGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B916A5572411711200C774B7 /* ToiletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletView.swift; sourceTree = "<group>"; };
 		B916A5592413EE8300C774B7 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		B973BE0C241C3F9E005094B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B98F22B923FDF2C4008284E8 /* MapOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOptions.swift; sourceTree = "<group>"; };
 		B9A505ED23F5BBE500E7E1D0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B9C03FDB23F85BEB008C9558 /* toiletData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = toiletData.json; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				78DFFD2523E0AB20008F0DFA /* CircleImage.swift */,
 				7801771723DF8F1100BC0DF4 /* Assets.xcassets */,
 				7801771C23DF8F1100BC0DF4 /* LaunchScreen.storyboard */,
+				B973BE0C241C3F9E005094B4 /* GoogleService-Info.plist */,
 				7801771F23DF8F1100BC0DF4 /* Info.plist */,
 				7801771923DF8F1100BC0DF4 /* Preview Content */,
 			);
@@ -205,7 +208,6 @@
 				ECB0C305DB3485CA674BC4C3 /* Pods-GottaGoTests.debug.xcconfig */,
 				5DD9AAA792961D8FF47809EC /* Pods-GottaGoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -295,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7801771E23DF8F1100BC0DF4 /* LaunchScreen.storyboard in Resources */,
+				B973BE0D241C3F9E005094B4 /* GoogleService-Info.plist in Resources */,
 				B9C03FDC23F85BEB008C9558 /* toiletData.json in Resources */,
 				7801771B23DF8F1100BC0DF4 /* Preview Assets.xcassets in Resources */,
 				B9C03FE723F864B5008C9558 /* mockToilet3.jpg in Resources */,
