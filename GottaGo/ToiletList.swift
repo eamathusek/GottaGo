@@ -9,10 +9,19 @@
 import SwiftUI
 
 struct ToiletList: View {
+    
+    //MARK: Properties
+    @ObservedObject var session = FirebaseSession()
+    
     var body: some View {
-        List(toiletData) { toilet in
+        
+        List {ForEach(self.session.toiletData) { toilet in
             ToiletRow(toilet: toilet)
-        }
+//                   NavigationLink(destination: ToiletView(toilet: toilet)) {
+//                    ToiletRow(toilet: toilet)
+//                   }
+               }
+           }
     }
 }
 

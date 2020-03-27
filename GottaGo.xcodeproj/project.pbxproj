@@ -20,6 +20,7 @@
 		78DFFD2823E0AE88008F0DFA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DFFD2723E0AE88008F0DFA /* MapView.swift */; };
 		B916A5582411711200C774B7 /* ToiletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B916A5572411711200C774B7 /* ToiletView.swift */; };
 		B916A55A2413EE8300C774B7 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B916A5592413EE8300C774B7 /* RatingView.swift */; };
+		B94D1B7D242C0A3300F7D82A /* session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D1B7C242C0A3300F7D82A /* session.swift */; };
 		B973BE0D241C3F9E005094B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B973BE0C241C3F9E005094B4 /* GoogleService-Info.plist */; };
 		B98F22BA23FDF2C4008284E8 /* MapOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F22B923FDF2C4008284E8 /* MapOptions.swift */; };
 		B9A505EE23F5BBE500E7E1D0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A505ED23F5BBE500E7E1D0 /* MainView.swift */; };
@@ -64,6 +65,7 @@
 		852F524092EDEDE75D27CD1F /* Pods_GottaGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GottaGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B916A5572411711200C774B7 /* ToiletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletView.swift; sourceTree = "<group>"; };
 		B916A5592413EE8300C774B7 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		B94D1B7C242C0A3300F7D82A /* session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = session.swift; sourceTree = "<group>"; };
 		B973BE0C241C3F9E005094B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B98F22B923FDF2C4008284E8 /* MapOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOptions.swift; sourceTree = "<group>"; };
 		B9A505ED23F5BBE500E7E1D0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				B9C03FE623F864B5008C9558 /* mockToilet2.jpg */,
 				B9C03FE423F864B5008C9558 /* mockToilet3.jpg */,
 				B9C03FDB23F85BEB008C9558 /* toiletData.json */,
+				B94D1B7C242C0A3300F7D82A /* session.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94D1B7D242C0A3300F7D82A /* session.swift in Sources */,
 				7801771223DF8F0500BC0DF4 /* AppDelegate.swift in Sources */,
 				B9A505EE23F5BBE500E7E1D0 /* MainView.swift in Sources */,
 				B9C03FED23F8739A008C9558 /* Data.swift in Sources */,

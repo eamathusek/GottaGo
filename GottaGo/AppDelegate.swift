@@ -11,13 +11,18 @@ import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
-        var ref: DatabaseReference!
-
-        ref = Database.database().reference()
-        
+//        var ref: DatabaseReference!
+//
+//        ref = Database.database().reference()
+//        
+//        ref.observeSingleEvent(of: .value, with: { (snapshot) in
+//            let bathrooms = snapshot.value as? NSDictionary
+////            let toilets = ToiletList(value)
+//            print(bathrooms ?? "No data found")
+//        })
         // Override point for customization after application launch.
         return true
     }

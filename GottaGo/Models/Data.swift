@@ -8,11 +8,18 @@ Helpers for loading images and data.
 import UIKit
 import SwiftUI
 import CoreLocation
+import FirebaseDatabase
 
-let toiletData: [Toilet] = load("toiletData.json")
+var toiletData: [Toilet] = load("toiletData.json")
+//var toiletData: [Toilet] = []
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
+//    let ref = Database.database().reference()
+//    ref.child("bathrooms").observeSingleEvent(of: .value) {
+//        (snapshot) in
+//        toiletData = snapshot.value as? [Toilet] ?? []
+//    }
     
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
         else {
