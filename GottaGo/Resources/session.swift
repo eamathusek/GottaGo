@@ -36,9 +36,13 @@ class FirebaseSession: ObservableObject {
         })
     }
     
+<<<<<<< HEAD
     
     func setToiletData(toilet:Toilet) {
         let postRef = ref.child("4")
         postRef.setValue(toilet.toAnyObject())
+=======
+    func setToiletData() {
+>>>>>>> e9cb8e1b911f7ea8bd679d15252e5f6f78124062
     }
 }

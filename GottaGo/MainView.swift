@@ -18,7 +18,6 @@ struct MainView: View {
             ToiletList().padding(.top, -10).shadow(color: Color.gray, radius: 5, x: 0, y: -1)
             
         }
-        // Add current location/settings buttons
     }
 }
 
