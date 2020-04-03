@@ -3,6 +3,14 @@ import CoreLocation
 import FirebaseDatabase
 
 struct Toilet: Hashable, Codable, Identifiable {
+    internal init(id: Int, name: String, rating: Rating, imageName: String, coordinates: Coordinates) {
+        self.id = id
+        self.name = name
+        self.rating = rating
+        self.imageName = imageName
+        self.coordinates = coordinates
+    }
+    
     var id: Int
     var name: String
     var rating: Rating
@@ -40,6 +48,12 @@ struct Toilet: Hashable, Codable, Identifiable {
         self.coordinates = Coordinates(latitude: latitude, longitude: longitude)
         self.id = id
     }
+    func toAnyObject() {
+        return [
+            "id" : id,
+            "rating" : ["general": rating.general, "cleanliness": rating.cleanliness, "location": rating.location, "accessibility": rating.accessibility, "traffic": rating.traffic, "size": rating.size],
+        ]
+    }
 }
 
 extension Toilet {
@@ -76,4 +90,12 @@ struct Rating: Hashable, Codable {
     var accessibility: Int
     var traffic: Int
     var size: Int
+}
+
+func toAnyObject() {
+    return [
+        "id" : any,
+        "rating" : Rating,
+        
+    ]
 }
