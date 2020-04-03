@@ -36,6 +36,5 @@ class FirebaseSession: ObservableObject {
     }
     
     func setToiletData() {
-    
     }
 }
