@@ -1,5 +1,5 @@
 [{
-    "id": 0,
+    "id": "0",
     "name": "MC 1st Floor",
     "coordinates": {
         "longitude": -111.7831,
@@ -15,7 +15,7 @@
         "size": 5
     }
 }, {
-    "id": 1,
+    "id": "1",
     "name": "Smith 3rd Floor",
     "coordinates": {
         "longitude": -111.7816,
@@ -31,7 +31,7 @@
         "size": 1
     }
 }, {
-    "id": 2,
+    "id": "2",
     "name": "I-center 1st Floor",
     "coordinates": {
         "longitude": -111.7855,

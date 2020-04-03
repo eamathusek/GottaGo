@@ -18,7 +18,8 @@ class FirebaseSession: ObservableObject {
     
     init() {
         getToiletData()
-        setToiletData(toilet: Toilet(id: 1234, name: "Death Star", rating: Rating(general: 4, cleanliness: 1, location: 4, accessibility: 4, traffic: 2, size: 5), imageName: "Death Star", coordinates: Coordinates(latitude: 111, longitude: 222)))
+        // Mock setToiletData function
+        // setToiletData(toilet: Toilet(id: "1234", name: "Death Star", rating: Rating(general: 4, cleanliness: 1, location: 4, accessibility: 4, traffic: 2, size: 5), imageName: "mockToilet3", coordinates: Coordinates(latitude: 111, longitude: 222)))
     }
     
     //MARK: Functions
@@ -37,7 +38,7 @@ class FirebaseSession: ObservableObject {
     }
     
     func setToiletData(toilet:Toilet) {
-        let postRef = ref.child("4")
+        let postRef = ref.child("bathrooms").childByAutoId()
         postRef.setValue(toilet.toAnyObject())
     }
 }

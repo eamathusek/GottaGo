@@ -12,7 +12,7 @@ struct ToiletRow: View {
     var toilet: Toilet
     
     var body: some View {
-        HStack {
+        return HStack {
             toilet.image
             .resizable()
             .frame(width: 50, height: 50)
