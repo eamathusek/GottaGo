@@ -15,7 +15,7 @@
 		7801771B23DF8F1100BC0DF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7801771A23DF8F1100BC0DF4 /* Preview Assets.xcassets */; };
 		7801771E23DF8F1100BC0DF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7801771C23DF8F1100BC0DF4 /* LaunchScreen.storyboard */; };
 		7801772923DF8F1100BC0DF4 /* GottaGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801772823DF8F1100BC0DF4 /* GottaGoTests.swift */; };
-		78AF0A5B2436E35800E7D9C7 /* ReviewInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AF0A5A2436E35800E7D9C7 /* ReviewInputView.swift */; };
+		7829E6B0243BA18F00DC6CFE /* ReviewFormUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7829E6AF243BA18F00DC6CFE /* ReviewFormUI.swift */; };
 		78DFFD2423E0A792008F0DFA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DFFD2323E0A792008F0DFA /* MapKit.framework */; };
 		78DFFD2623E0AB20008F0DFA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DFFD2523E0AB20008F0DFA /* CircleImage.swift */; };
 		78DFFD2823E0AE88008F0DFA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DFFD2723E0AE88008F0DFA /* MapView.swift */; };
@@ -60,7 +60,7 @@
 		7801772823DF8F1100BC0DF4 /* GottaGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GottaGoTests.swift; sourceTree = "<group>"; };
 		7801772A23DF8F1100BC0DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		782073F4241A99D700ECFAE2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "/Users/ericmathusek/OneDrive/Documents/Semester 11/Senior Project/GottaGo/GoogleService-Info.plist"; sourceTree = "<absolute>"; };
-		78AF0A5A2436E35800E7D9C7 /* ReviewInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewInputView.swift; sourceTree = "<group>"; };
+		7829E6AF243BA18F00DC6CFE /* ReviewFormUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewFormUI.swift; sourceTree = "<group>"; };
 		78DFFD2323E0A792008F0DFA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		78DFFD2523E0AB20008F0DFA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		78DFFD2723E0AE88008F0DFA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -128,9 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				7801771123DF8F0500BC0DF4 /* AppDelegate.swift */,
+				7829E6AF243BA18F00DC6CFE /* ReviewFormUI.swift */,
 				7801771323DF8F0500BC0DF4 /* SceneDelegate.swift */,
 				B9A505ED23F5BBE500E7E1D0 /* MainView.swift */,
-				78AF0A5A2436E35800E7D9C7 /* ReviewInputView.swift */,
 				B916A5572411711200C774B7 /* ToiletView.swift */,
 				B9C03FDF23F85FD0008C9558 /* ToiletList.swift */,
 				B9C03FEB23F86EE5008C9558 /* Supporting Views */,
@@ -412,7 +412,6 @@
 				7801771223DF8F0500BC0DF4 /* AppDelegate.swift in Sources */,
 				B9A505EE23F5BBE500E7E1D0 /* MainView.swift in Sources */,
 				B9C03FED23F8739A008C9558 /* Data.swift in Sources */,
-				78AF0A5B2436E35800E7D9C7 /* ReviewInputView.swift in Sources */,
 				B916A55A2413EE8300C774B7 /* RatingView.swift in Sources */,
 				B9C03FE223F86271008C9558 /* Toilet.swift in Sources */,
 				B9C03FE023F85FD0008C9558 /* ToiletList.swift in Sources */,
@@ -420,6 +419,7 @@
 				B98F22BA23FDF2C4008284E8 /* MapOptions.swift in Sources */,
 				B916A5582411711200C774B7 /* ToiletView.swift in Sources */,
 				78DFFD2623E0AB20008F0DFA /* CircleImage.swift in Sources */,
+				7829E6B0243BA18F00DC6CFE /* ReviewFormUI.swift in Sources */,
 				7801771423DF8F0500BC0DF4 /* SceneDelegate.swift in Sources */,
 				78DFFD2823E0AE88008F0DFA /* MapView.swift in Sources */,
 			);
