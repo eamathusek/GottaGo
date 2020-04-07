@@ -28,10 +28,7 @@ class FirebaseSession: ObservableObject {
             self.toiletData = []
             for child in snapshot.children {
                 let toilet = Toilet(snapshot: child as! DataSnapshot)
-                print(child)
-                print(toilet ?? "There is not toilet, jon")
                     if ((toilet) != nil) {
-                        print ("We've got a toilet!")
                         self.toiletData.append(toilet!)
                     }
                 }

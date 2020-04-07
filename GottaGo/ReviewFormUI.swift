@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ReviewFormUI: View {
     @ObservedObject var session = FirebaseSession()
+    @Environment(\.presentationMode) var creatingReview
     
     @State private var name = ""
     @State private var rating = Rating(general: 0, cleanliness: 0, location: 0, accessibility: 0, traffic: 0, size: 0)
@@ -26,6 +27,8 @@ struct ReviewFormUI: View {
                    imageName: "mockToilet3",
                    coordinates: Coordinates(latitude: (self.latitude as NSString).doubleValue,
                                             longitude: (self.longitude as NSString).doubleValue)))
+        self.creatingReview.wrappedValue.dismiss()
+        // self.session.getToiletData()
     }
     
     var body: some View {
