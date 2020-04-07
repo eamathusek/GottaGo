@@ -14,11 +14,7 @@ struct MainView: View {
             ZStack {
                 MapView().edgesIgnoringSafeArea(.top).frame(height: 500)
                 // Get this working
-//                NavigationView {
-                NavigationLink(destination: ReviewFormUI()) {
-                        NewReviewButton().offset(x: 150, y: -200)
-                    }
-//                }
+                NewReviewButton().offset(x: 150, y: -200)
             }
             ToiletList().padding(.top, -10).shadow(color: Color.gray, radius: 5, x: 0, y: -1)
             
