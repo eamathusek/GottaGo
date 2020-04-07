@@ -10,14 +10,15 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        VStack {
-            ZStack {
-                MapView().edgesIgnoringSafeArea(.top).frame(height: 500)
-                // Get this working
-                NewReviewButton().offset(x: 150, y: -200)
+        NavigationView {
+            VStack {
+                ZStack {
+                    MapView().edgesIgnoringSafeArea(.top).frame(height: 500)
+                    // Get this working
+                    NewReviewButton().offset(x: 150, y: -200)
+                }
+                ToiletList().padding(.top, -10).shadow(color: Color.gray, radius: 5, x: 0, y: -1)
             }
-            ToiletList().padding(.top, -10).shadow(color: Color.gray, radius: 5, x: 0, y: -1)
-            
         }
     }
 }
