@@ -9,60 +9,32 @@
 import SwiftUI
 
 struct ReviewFormUI: View {
-    @State private var Name = ""
-    @State private var Latitude = ""
-    @State private var Longitude = ""
-    @State private var General = ""
-    @State private var Cleanliness = ""
-    @State private var Location = ""
-    @State private var Accessibility = ""
-    @State private var Traffic = ""
-    @State private var selection1 = 0
-    @State private var selection2 = 0
-    @State private var selection3 = 0
-    @State private var selection4 = 0
-    @State private var selection5 = 0
-
-    let colors = ["1","2","3","4", "5"]
+    @ObservedObject var session = FirebaseSession()
+    
+    @State private var name = ""
+    @State private var rating = Rating(general: 0, cleanliness: 0, location: 0, accessibility: 0, traffic: 0, size: 0)
     
     var body: some View {
+//        let toilet = Toilet(id: "1", name: self.Name, rating: Rating(general: self.General, cleanliness: self.Cleanliness, location: self.Location, accessibility: self.Accessibility, traffic: self.Traffic, size: self.Size), imageName: "mockToilet3", coordinates: Coordinates(latitude: self.Latitude, longitude: self.Longitude))
         NavigationView{
-
             Form {
                 Section (header: Text("Bathroom Location")) {
-                    TextField("Name (Optional)", text: $Name)
-                    TextField("Latitude: 43.8231 N", text: $Latitude)
-                    TextField("Longitude: 111.7924° W", text: $Longitude)
+                    TextField("Name (Optional)", text: $name)
+//                    TextField("Latitude: 43.8231 N", text: $Latitude)
+//                    TextField("Longitude: 111.7924° W", text: $Longitude)
                 }
                 
                 Section (header: Text("Ratings")) {
-                    Picker(selection: $selection1, label: Text("General Rating", tableName: General)) {
-                            ForEach(0 ..< colors.count) { index in
-                            Text(self.colors[index]).tag(index)
-                            }
-                    }
-                    Picker(selection: $selection2, label: Text("Cleanliness", tableName: Cleanliness)) {
-                        ForEach(0 ..< colors.count) { index in
-                        Text(self.colors[index]).tag(index)
-                        }
-                    }
-                    Picker(selection: $selection3, label: Text("Location", tableName: Location)) {
-                        ForEach(0 ..< colors.count) { index in
-                        Text(self.colors[index]).tag(index)
-                        }
-                    }
-                    Picker(selection: $selection4, label: Text("Accessibility", tableName: Accessibility)) {
-                        ForEach(0 ..< colors.count) { index in
-                        Text(self.colors[index]).tag(index)
-                        }
-                    }
-                    Picker(selection: $selection5, label: Text("Traffic", tableName: Traffic)) {
-                        ForEach(0 ..< colors.count) { index in
-                        Text(self.colors[index]).tag(index)
-                        }
-                    }
+                    Text("General")
+                    RatingView(rating: $rating.general)
+                    Text("Cleanliness")
+                    RatingView(rating: $rating.cleanliness)
+                    RatingView(rating: $rating.location)
+                    RatingView(rating: $rating.accessibility)
+                    RatingView(rating: $rating.traffic)
+                    RatingView(rating: $rating.size)
                 }
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Button(action:{}) {
                     Text("Submit Review")
             }.navigationBarTitle(Text("Bathroom Review"))
             }
