@@ -22,6 +22,8 @@ class customBathroom: NSObject, MKAnnotation {
 }
 
 struct MapView: UIViewRepresentable {
+    @ObservedObject var session = FirebaseSession()
+    
     func makeUIView(context: Context) -> MKMapView {
         MKMapView(frame: .zero)
     }
@@ -35,7 +37,7 @@ struct MapView: UIViewRepresentable {
         // TODO: include this spot
         view.setRegion(region, animated: true)
         
-        for toilet in toiletData {
+        for toilet in self.session.toiletData {
             view.addAnnotation(customBathroom(title: toilet.name, subtitle: "", coordinate: toilet.locationCoordinate))
         }
     }

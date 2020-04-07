@@ -24,16 +24,17 @@ class FirebaseSession: ObservableObject {
     
     //MARK: Functions
     func getToiletData() {
-        ref.observeSingleEvent(of: .value, with: { (snapshot) in
+        ref.child("bathrooms").observeSingleEvent(of: .value, with: { (snapshot) in
             self.toiletData = []
             for child in snapshot.children {
-                for c in (child as! DataSnapshot).children {
-                    let toilet = Toilet(snapshot: c as! DataSnapshot)
+                let toilet = Toilet(snapshot: child as! DataSnapshot)
+                print(child)
+                print(toilet ?? "There is not toilet, jon")
                     if ((toilet) != nil) {
+                        print ("We've got a toilet!")
                         self.toiletData.append(toilet!)
                     }
                 }
-            }
         })
     }
     
