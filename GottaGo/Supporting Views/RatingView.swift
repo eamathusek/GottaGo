@@ -39,6 +39,7 @@ struct RatingView: View {
             if label.isEmpty == false {
                 Text(label)
             }
+            Spacer()
             ForEach(1 ..< self.maxRating+1) { index in
                 self.image(for: index)
                     .foregroundColor(index > self.rating ? self.offColor : self.onColor)
@@ -60,6 +61,6 @@ struct RatingView: View {
 
 struct RatingView_Previews: PreviewProvider {
     static var previews: some View {
-        RatingView(rating: .constant(3))
+        RatingView(rating: .constant(3), label: "Test")
     }
 }
