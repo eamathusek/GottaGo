@@ -40,6 +40,8 @@ class FirebaseSession: ObservableObject {
     
     func setToiletData(toilet:Toilet) {
         let postRef = ref.child("bathrooms").childByAutoId()
-        postRef.setValue(toilet.toAnyObject())
+        var newToilet = toilet
+        newToilet.id = postRef.key ?? "chicken nuggets"
+        postRef.setValue(newToilet.toAnyObject())
     }
 }
