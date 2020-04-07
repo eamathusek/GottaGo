@@ -17,6 +17,13 @@ struct ReviewFormUI: View {
     @State private var Location = ""
     @State private var Accessibility = ""
     @State private var Traffic = ""
+    @State private var selection1 = 0
+    @State private var selection2 = 0
+    @State private var selection3 = 0
+    @State private var selection4 = 0
+    @State private var selection5 = 0
+
+    let colors = ["1","2","3","4", "5"]
     
     var body: some View {
         NavigationView{
@@ -29,43 +36,36 @@ struct ReviewFormUI: View {
                 }
                 
                 Section (header: Text("Ratings")) {
-                    Picker(selection: .constant(1), label: Text("General Rating", tableName: General)) {
-                        /*@START_MENU_TOKEN@*/Text("1").tag(1)/*@END_MENU_TOKEN@*/
-                        Text("2").tag(2)
-                        Text("3").tag(3)
-                        Text("4").tag(4)
-                        Text("5").tag(5)
+                    Picker(selection: $selection1, label: Text("General Rating", tableName: General)) {
+                            ForEach(0 ..< colors.count) { index in
+                            Text(self.colors[index]).tag(index)
+                            }
                     }
-                    Picker(selection: .constant(2), label: Text("Cleanliness", tableName: Cleanliness)) {
-                        /*@START_MENU_TOKEN@*/Text("1").tag(1)/*@END_MENU_TOKEN@*/
-                        Text("2").tag(2)
-                        Text("3").tag(3)
-                        Text("4").tag(4)
-                        Text("5").tag(5)
+                    Picker(selection: $selection2, label: Text("Cleanliness", tableName: Cleanliness)) {
+                        ForEach(0 ..< colors.count) { index in
+                        Text(self.colors[index]).tag(index)
+                        }
                     }
-                    Picker(selection: .constant(3), label: Text("Location", tableName: Location)) {
-                        /*@START_MENU_TOKEN@*/Text("1").tag(1)/*@END_MENU_TOKEN@*/
-                        Text("2").tag(2)
-                        Text("3").tag(3)
-                        Text("4").tag(4)
-                        Text("5").tag(5)
+                    Picker(selection: $selection3, label: Text("Location", tableName: Location)) {
+                        ForEach(0 ..< colors.count) { index in
+                        Text(self.colors[index]).tag(index)
+                        }
                     }
-                    Picker(selection: .constant(4), label: Text("Accessibility", tableName: Accessibility)) {
-                        /*@START_MENU_TOKEN@*/Text("1").tag(1)/*@END_MENU_TOKEN@*/
-                        Text("2").tag(2)
-                        Text("3").tag(3)
-                        Text("4").tag(4)
-                        Text("5").tag(5)
+                    Picker(selection: $selection4, label: Text("Accessibility", tableName: Accessibility)) {
+                        ForEach(0 ..< colors.count) { index in
+                        Text(self.colors[index]).tag(index)
+                        }
                     }
-                    Picker(selection: .constant(1), label: Text("Traffic", tableName: Traffic)) {
-                        /*@START_MENU_TOKEN@*/Text("1").tag(1)/*@END_MENU_TOKEN@*/
-                        Text("2").tag(2)
-                        Text("3").tag(3)
-                        Text("4").tag(4)
-                        Text("5").tag(5)
+                    Picker(selection: $selection5, label: Text("Traffic", tableName: Traffic)) {
+                        ForEach(0 ..< colors.count) { index in
+                        Text(self.colors[index]).tag(index)
+                        }
                     }
                 }
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("Submit Review")
             }.navigationBarTitle(Text("Bathroom Review"))
+            }
         }
     }
 }
@@ -75,3 +75,4 @@ struct ReviewFormUI_Previews: PreviewProvider {
         ReviewFormUI()
     }
 }
+
