@@ -38,8 +38,8 @@ struct RatingView: View {
         HStack {
             if label.isEmpty == false {
                 Text(label)
+                Spacer()
             }
-            Spacer()
             ForEach(1 ..< self.maxRating+1) { index in
                 self.image(for: index)
                     .foregroundColor(index > self.rating ? self.offColor : self.onColor)

@@ -14,15 +14,12 @@ struct ToiletList: View {
     @ObservedObject var session = FirebaseSession()
     
     var body: some View {
-//        NavigationView {
             List {ForEach(self.session.toiletData) { toilet in
                     NavigationLink(destination: ToiletView(toilet: toilet)) {
                      ToiletRow(toilet: toilet)
                     }
                 }
-            }.navigationBarTitle("")
-            .navigationBarHidden(true)
-//        }
+            }
     }
 }
 

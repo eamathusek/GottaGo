@@ -13,7 +13,7 @@ struct MainView: View {
         NavigationView {
             VStack {
                 ZStack {
-                    MapView().edgesIgnoringSafeArea(.top).frame(height: 500)
+                    MapView().edgesIgnoringSafeArea(.top).frame(height: 300)
                     // Get this working
                     NewReviewButton().offset(x: 150, y: -200)
                 }

@@ -24,7 +24,7 @@ struct ReviewFormUI: View {
             Toilet(id: "temporaryId",
                    name: self.name,
                    rating: self.rating,
-                   imageName: "mockToilet3",
+                   imageName: "mockToilet" + String(Int.random(in: 0 ..< 3)),
                    coordinates: Coordinates(latitude: (self.latitude as NSString).doubleValue,
                                             longitude: (self.longitude as NSString).doubleValue)))
         self.creatingReview.wrappedValue.dismiss()
