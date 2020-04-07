@@ -12,8 +12,7 @@ struct NewReviewButton: View {
     @State private var showNewReview = false
     
     var body: some View {
-//        NavigationView {
-//            NavigationLink(destination: ReviewFormUI()) {
+
                 Button(action: { self.showNewReview = true }) {
                 Image(systemName: "plus")
                 }.font(.system(size: 25)).frame(width: 45, height: 45)
@@ -21,9 +20,7 @@ struct NewReviewButton: View {
                 .background(Color.white).cornerRadius(100)
                     .shadow(color: Color.black, radius: 2, x: 1, y: 1).sheet(isPresented: $showNewReview) {
                         ReviewFormUI()
-        }
-//            }
-//        }
+                    }
     }
 }
 
